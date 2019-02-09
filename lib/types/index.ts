@@ -1,4 +1,4 @@
-export type Thing = {
+export interface Thing {
   name: string,
   number?: number,
 }
